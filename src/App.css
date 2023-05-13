@@ -1,0 +1,39 @@
+@import './theme/dark.css';
+@import './theme/light.css';
+
+.app {
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.toggleTheme {
+    position: absolute;
+    top: 8px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.toggleTheme .text {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+
+.pokemonList {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
